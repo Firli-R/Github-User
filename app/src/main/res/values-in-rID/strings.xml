@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Githab User</string>
+    <string name="search">Cari</string>
+    <string name="following">Mengikuti</string>
+    <string name="followers">Pengikut</string>
+    <string name="repository">Gudang</string>
+    <string name="tab1">Pengikut</string>
+    <string name="tab2">Mengikuti</string>
+    <string name="bio">Bio</string>
+    <string name="change_language_settings">ubah pengaturan bahasa</string>
+    <string name="error">Data tidak ditemukan</string>
+    <string name="alarm_setting">pengaturan Alarm</string>
+    <string name="one_time_alarm">Alarm satu waktu</string>
+    <string name="alarm_date">tanggal Alarm</string>
+    <string name="set_one_time_alarm">set Alarm satu waktu</string>
+    <string name="alarm_message">Pesan Alarm</string>
+    <string name="repeating_alarm">Alarm Perulangan</string>
+    <string name="set_repeating_alarm">set Alarm Perulangan</string>
+    <string name="cancel_alarm">Batalkan Alarm</string>
+    <string name="alarm_time">Waktu Alarm</string>
+    <string name="fav_saved">Favorite Tersimpan</string>
+    <string name="fav_deleted">Favorite Dihapus</string>
+    <string name="Translate">Terjemahan</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.githab_user">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="com.example.githab_user.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.example.githab_user.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Githab_User"
+        android:usesCleartextTraffic="true"
+       >
+        <activity android:name=".Setting.SettingActivity" />
+        <activity android:name=".Activity.FavoriteActivity" />
+
+        <provider
+            android:name=".provider.UsersProvider"
+            android:authorities="com.example.githab_user"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.example.githab_user.READ_DATABASE"
+            android:writePermission="com.example.githab_user.WRITE_DATABASE" />
+
+        <activity android:name=".Activity.DetailActivity" />
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:label="githab"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="Githab"
+            android:theme="@style/AppTheme" />
+
+        <receiver android:name=".Setting.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>

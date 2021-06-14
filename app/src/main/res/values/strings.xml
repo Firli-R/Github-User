@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Githab User</string>
+    <string name="search">Search</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="repository">Repository</string>
+    <string name="bio">Bio</string>
+    <string name="tab1">Followers</string>
+    <string name="tab2">Following</string>
+    <string name="Bio_zero" translatable="false">none</string>
+    <string name="change_language_settings">change language settings</string>
+    <string name="error">data not found</string>
+    <string name="alarm_setting">Alarm Setting</string>
+    <string name="one_time_alarm">One Time Alarm</string>
+    <string name="alarm_date">date of Alarm</string>
+    <string name="set_one_time_alarm">Set One Time Alarm</string>
+    <string name="alarm_message">Message of Alarm</string>
+    <string name="repeating_alarm">Repeating_Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm at 09:00</string>
+    <string name="cancel_alarm">Cancel Alarm</string>
+    <string name="alarm_time">Time of Alarm</string>
+    <string name="fav_saved">Favorite Saved</string>
+    <string name="fav_deleted">Favorite Deleted</string>
+    <string name="Translate">translate</string>
+
+</resources>

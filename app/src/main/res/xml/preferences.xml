@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:key="@string/repeating_alarm"
+        android:title="@string/set_repeating_alarm"
+        android:defaultValue="false"
+        app:iconSpaceReserved="false"
+        />
+    <Preference
+        android:key="@string/Translate"
+        android:title="@string/change_language_settings"
+        app:icon="@drawable/ic_translate"
+        />
+</PreferenceScreen>
